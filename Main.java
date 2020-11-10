@@ -7,6 +7,12 @@ class Main {
 
     for (int i = 0; i <= names.length; i++) {
       System.out.println("Name please");
+
+      while (i++ < seats.length) {
+        Scanner scan = new Scanner(System.in);
+        String name = scan.next();
+        name += scan.nextLine();
+      }
     }
   }
 }
