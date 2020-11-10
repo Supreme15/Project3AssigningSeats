@@ -12,6 +12,8 @@ class Main {
         Scanner scan = new Scanner(System.in);
         String name = scan.next();
         name += scan.nextLine();
+        System.out.println("\n Hello " + name + ", please sit in seat #" + i);
+        System.out.println("\n Name please \n");
       }
     }
   }
